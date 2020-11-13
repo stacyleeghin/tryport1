@@ -1,0 +1,83 @@
+@import './base';
+
+.wrap{
+    .container{
+        border:thin green solid;
+        margin-top: 5em auto;
+        background-image: $bg1-color;
+        padding: 0em, 3em;
+        padding-bottom:4em;
+
+        header {
+            display:flex;
+            padding:2em 4em;
+            justify-content: space-between;
+    
+            a{  
+                text-decoration: none;
+                color:rgb(241, 237, 237);
+                
+                
+            }
+        }
+        .section1{
+            padding: 4em;
+            text-align: center;
+
+            .intro{
+                padding-top: 3em;
+            }
+           }
+        .section2{
+            border-bottom: thin $m-color solid;
+            text-align: center;
+            line-height:4em;
+            span{
+                font-family: $vfancyfont;
+                font-weight: 600;
+            }
+        
+        }
+        .section-casestudy{
+
+            padding: 3em 0em;
+          
+            text-align: center;
+            border: thin green solid;
+
+            h1{
+                font-family:$fancyfont;
+                font-size:2em;
+                font-style: italic;
+                font-weight: 400;
+         
+            }
+            img{
+                padding: 3em 0em;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            .left{
+                text-align: left;
+            }
+        }
+        
+
+    }
+  
+}
+  // breakpoint
+  @media only screen and (min-width :35em){
+
+}
+  @media only screen and (min-width :55em){
+    .wrap{
+        .container{
+            background-color:blue;
+        }
+      
+    }
+}
+ 

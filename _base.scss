@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+$vfancyfont:'Playfair Display SC', serif;
+$fancyfont:'Playfair Display', serif;
+$seriousfont: 'Raleway', sans-serif;
+
+$m-color:rgb(250, 249, 249);
+$bg1-color1:rgba(131, 128, 59, 0.36);
+$bg1-color2:rgba(170, 14, 30, 0.44);
+$bg1-color3:rgba(106, 48, 89, 0.37);
+
+$bg1-color: linear-gradient(180deg, $bg1-color1 1.60%, $bg1-color2 59.37%, $bg1-color3 97.4%);
+
+h1{
+    font-family: $fancyfont;
+
+    font-weight: 900;
+    font-size: 10em;
+    color: $m-color;
+    line-height: .7em;
+}
+h2{
+    
+    font-family: $fancyfont;
+    font-weight: 400;
+    font-size: 5em;
+    color: $m-color;
+}
+p{
+    font-family: $fancyfont;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: $m-color;
+    font-style: italic;
+   
+}
